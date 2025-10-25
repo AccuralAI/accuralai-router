@@ -3,9 +3,8 @@
 from __future__ import annotations
 
 import pytest
-from unittest.mock import AsyncMock, Mock
+from unittest.mock import Mock
 
-from accuralai_core.contracts.errors import ConfigurationError
 from accuralai_core.contracts.models import GenerateRequest
 
 from accuralai_router.strategies.complexity import ComplexityRouter, build_complexity_router

@@ -5,7 +5,6 @@ from __future__ import annotations
 from typing import Any, Dict, Literal, Mapping, Optional
 
 from accuralai_core.config.schema import RouterSettings
-from accuralai_core.contracts.errors import ConfigurationError
 from accuralai_core.contracts.models import GenerateRequest
 from accuralai_core.contracts.protocols import Router
 from accuralai_core.utils.tokenizer import DEFAULT_TOKENIZER
@@ -13,7 +12,6 @@ from accuralai_core.utils.tokenizer import DEFAULT_TOKENIZER
 from ..base import HealthCheck, RouterContext, RouterMetricsRecorder
 from ..config import (
     ComplexityRouterOptions,
-    ComplexityScoringConfig,
     ComplexityTierConfig,
     parse_options,
 )

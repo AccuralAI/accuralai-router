@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import time
-from typing import Any, Dict, Mapping, Optional
+from typing import Any, Dict, Mapping
 
 from accuralai_core.config.schema import RouterSettings
 from accuralai_core.contracts.errors import ConfigurationError

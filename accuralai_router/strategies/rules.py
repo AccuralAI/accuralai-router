@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import re
-from typing import Any, Dict, Iterable, Mapping, Optional, Sequence
+from typing import Any, Dict, Iterable, Mapping, Sequence
 
 from accuralai_core.config.schema import RouterSettings
 from accuralai_core.contracts.errors import ConfigurationError
