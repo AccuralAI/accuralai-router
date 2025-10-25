@@ -25,8 +25,8 @@ dev = [
 "rules" = "accuralai_router.strategies.rules:build_rules_router"
 
 [project.urls]
-homepage = "https://github.com/accuralai/accuralai-router"
-repository = "https://github.com/accuralai/accuralai-router"
+homepage = "https://accural-ai.web.app/"
+repository = "https://github.com/AccuralAI/accuralai-router"
 
 [build-system]
 requires = ["hatchling"]
