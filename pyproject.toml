@@ -1,6 +1,6 @@
 [project]
 name = "accuralai-router"
-version = "0.1.0"
+version = "0.2.0"
 description = "Routing strategies for the AccuralAI orchestration pipeline."
 readme = "README.md"
 requires-python = ">=3.10"
